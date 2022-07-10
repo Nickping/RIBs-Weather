@@ -1,0 +1,19 @@
+{
+  "commitish" : "0b0948a68f4836f504a09529176e8da90909f846",
+  "iOS" : [
+    {
+      "swiftToolchainVersion" : "5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)",
+      "hash" : "6af003e45fc1e48099891203add9526f0c79a9eb54aec30cbc53344156b815df",
+      "name" : "RIBs",
+      "container" : "RIBs.xcframework",
+      "identifier" : "ios-arm64_armv7"
+    },
+    {
+      "swiftToolchainVersion" : "5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)",
+      "hash" : "ed5ae54ea190bb90dfb1d4fceb4b21503e63b6901ec4808b3cf1cfb881a6ba35",
+      "name" : "RIBs",
+      "container" : "RIBs.xcframework",
+      "identifier" : "ios-i386_x86_64-simulator"
+    }
+  ]
+}

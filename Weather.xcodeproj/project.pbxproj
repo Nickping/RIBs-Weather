@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		781279A7287B271700C449F7 /* RIBs.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787AC441287761BE00159270 /* RIBs.xcframework */; };
+		781279A8287B271700C449F7 /* RIBs.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 787AC441287761BE00159270 /* RIBs.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		781279A9287B271700C449F7 /* RxBlocking.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781517AB28773B2F00775808 /* RxBlocking.xcframework */; };
+		781279AA287B271700C449F7 /* RxBlocking.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 781517AB28773B2F00775808 /* RxBlocking.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		781279AB287B271700C449F7 /* RxCocoa.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781517AE28773B3000775808 /* RxCocoa.xcframework */; };
+		781279AC287B271700C449F7 /* RxCocoa.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 781517AE28773B3000775808 /* RxCocoa.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		781279AD287B271700C449F7 /* RxRelay.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781517A828773B2D00775808 /* RxRelay.xcframework */; };
+		781279AE287B271700C449F7 /* RxRelay.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 781517A828773B2D00775808 /* RxRelay.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		781279AF287B271700C449F7 /* RxSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 781517A128773B2300775808 /* RxSwift.xcframework */; };
+		781279B0287B271700C449F7 /* RxSwift.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 781517A128773B2300775808 /* RxSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		781279B8287B321A00C449F7 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781279B4287B321A00C449F7 /* RootRouter.swift */; };
+		781279B9287B321A00C449F7 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781279B5287B321A00C449F7 /* RootViewController.swift */; };
+		781279BA287B321A00C449F7 /* RootBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781279B6287B321A00C449F7 /* RootBuilder.swift */; };
+		781279BB287B321A00C449F7 /* RootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781279B7287B321A00C449F7 /* RootInteractor.swift */; };
+		781279C2287B344F00C449F7 /* LoggedOutRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781279BE287B344F00C449F7 /* LoggedOutRouter.swift */; };
+		781279C3287B344F00C449F7 /* LoggedOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781279BF287B344F00C449F7 /* LoggedOutViewController.swift */; };
+		781279C4287B344F00C449F7 /* LoggedOutBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781279C0287B344F00C449F7 /* LoggedOutBuilder.swift */; };
+		781279C5287B344F00C449F7 /* LoggedOutInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781279C1287B344F00C449F7 /* LoggedOutInteractor.swift */; };
+		781279C7287B36A800C449F7 /* RootComponent+LoggedOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781279C6287B36A800C449F7 /* RootComponent+LoggedOut.swift */; };
+		781279C9287B385900C449F7 /* AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781279C8287B385900C449F7 /* AppComponent.swift */; };
 		78281A6128773677000B53D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78281A6028773677000B53D7 /* AppDelegate.swift */; };
 		78281A6328773677000B53D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78281A6228773677000B53D7 /* SceneDelegate.swift */; };
 		78281A6528773677000B53D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78281A6428773677000B53D7 /* ViewController.swift */; };
@@ -35,7 +55,41 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		781279B3287B271700C449F7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				781279B0287B271700C449F7 /* RxSwift.xcframework in Embed Frameworks */,
+				781279AA287B271700C449F7 /* RxBlocking.xcframework in Embed Frameworks */,
+				781279AE287B271700C449F7 /* RxRelay.xcframework in Embed Frameworks */,
+				781279A8287B271700C449F7 /* RIBs.xcframework in Embed Frameworks */,
+				781279AC287B271700C449F7 /* RxCocoa.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		781279B4287B321A00C449F7 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		781279B5287B321A00C449F7 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		781279B6287B321A00C449F7 /* RootBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootBuilder.swift; sourceTree = "<group>"; };
+		781279B7287B321A00C449F7 /* RootInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInteractor.swift; sourceTree = "<group>"; };
+		781279BE287B344F00C449F7 /* LoggedOutRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutRouter.swift; sourceTree = "<group>"; };
+		781279BF287B344F00C449F7 /* LoggedOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutViewController.swift; sourceTree = "<group>"; };
+		781279C0287B344F00C449F7 /* LoggedOutBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutBuilder.swift; sourceTree = "<group>"; };
+		781279C1287B344F00C449F7 /* LoggedOutInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutInteractor.swift; sourceTree = "<group>"; };
+		781279C6287B36A800C449F7 /* RootComponent+LoggedOut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootComponent+LoggedOut.swift"; sourceTree = "<group>"; };
+		781279C8287B385900C449F7 /* AppComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppComponent.swift; sourceTree = "<group>"; };
+		781517A128773B2300775808 /* RxSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxSwift.xcframework; path = Carthage/Build/RxSwift.xcframework; sourceTree = "<group>"; };
+		781517A528773B2B00775808 /* RxTest.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxTest.xcframework; path = Carthage/Build/RxTest.xcframework; sourceTree = "<group>"; };
+		781517A828773B2D00775808 /* RxRelay.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxRelay.xcframework; path = Carthage/Build/RxRelay.xcframework; sourceTree = "<group>"; };
+		781517AB28773B2F00775808 /* RxBlocking.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxBlocking.xcframework; path = Carthage/Build/RxBlocking.xcframework; sourceTree = "<group>"; };
+		781517AE28773B3000775808 /* RxCocoa.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RxCocoa.xcframework; path = Carthage/Build/RxCocoa.xcframework; sourceTree = "<group>"; };
+		781517B128773C0A00775808 /* Alamofire.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Alamofire.xcframework; path = Carthage/Build/Alamofire.xcframework; sourceTree = "<group>"; };
 		78281A5D28773677000B53D7 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78281A6028773677000B53D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78281A6228773677000B53D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +103,13 @@
 		78281A7D28773678000B53D7 /* WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78281A8128773678000B53D7 /* WeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherUITests.swift; sourceTree = "<group>"; };
 		78281A8328773678000B53D7 /* WeatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		784949A228775B4800836058 /* RIBs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RIBs.framework; path = Carthage/Build/iOS/RIBs.framework; sourceTree = "<group>"; };
+		784949A328775B4800836058 /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+		784949A428775B4800836058 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		784949A528775B4800836058 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		784949A628775B4800836058 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		784949A728775B4800836058 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		787AC441287761BE00159270 /* RIBs.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = RIBs.xcframework; path = Carthage/Build/RIBs.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +117,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				781279AF287B271700C449F7 /* RxSwift.xcframework in Frameworks */,
+				781279A9287B271700C449F7 /* RxBlocking.xcframework in Frameworks */,
+				781279AD287B271700C449F7 /* RxRelay.xcframework in Frameworks */,
+				781279A7287B271700C449F7 /* RIBs.xcframework in Frameworks */,
+				781279AB287B271700C449F7 /* RxCocoa.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +142,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		781279BC287B322000C449F7 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				781279B4287B321A00C449F7 /* RootRouter.swift */,
+				781279B5287B321A00C449F7 /* RootViewController.swift */,
+				781279B6287B321A00C449F7 /* RootBuilder.swift */,
+				781279B7287B321A00C449F7 /* RootInteractor.swift */,
+				781279C6287B36A800C449F7 /* RootComponent+LoggedOut.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		781279BD287B344400C449F7 /* LoggedOut */ = {
+			isa = PBXGroup;
+			children = (
+				781279BE287B344F00C449F7 /* LoggedOutRouter.swift */,
+				781279BF287B344F00C449F7 /* LoggedOutViewController.swift */,
+				781279C0287B344F00C449F7 /* LoggedOutBuilder.swift */,
+				781279C1287B344F00C449F7 /* LoggedOutInteractor.swift */,
+			);
+			path = LoggedOut;
+			sourceTree = "<group>";
+		};
+		781517A028773B2300775808 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				787AC441287761BE00159270 /* RIBs.xcframework */,
+				784949A228775B4800836058 /* RIBs.framework */,
+				784949A528775B4800836058 /* RxBlocking.framework */,
+				784949A728775B4800836058 /* RxCocoa.framework */,
+				784949A328775B4800836058 /* RxRelay.framework */,
+				784949A428775B4800836058 /* RxSwift.framework */,
+				784949A628775B4800836058 /* RxTest.framework */,
+				781517B128773C0A00775808 /* Alamofire.xcframework */,
+				781517AE28773B3000775808 /* RxCocoa.xcframework */,
+				781517AB28773B2F00775808 /* RxBlocking.xcframework */,
+				781517A828773B2D00775808 /* RxRelay.xcframework */,
+				781517A528773B2B00775808 /* RxTest.xcframework */,
+				781517A128773B2300775808 /* RxSwift.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		78281A5428773677000B53D7 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +192,7 @@
 				78281A7628773678000B53D7 /* WeatherTests */,
 				78281A8028773678000B53D7 /* WeatherUITests */,
 				78281A5E28773677000B53D7 /* Products */,
+				781517A028773B2300775808 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +209,8 @@
 		78281A5F28773677000B53D7 /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				781279BD287B344400C449F7 /* LoggedOut */,
+				781279BC287B322000C449F7 /* Root */,
 				78281A6028773677000B53D7 /* AppDelegate.swift */,
 				78281A6228773677000B53D7 /* SceneDelegate.swift */,
 				78281A6428773677000B53D7 /* ViewController.swift */,
@@ -106,6 +218,7 @@
 				78281A6928773678000B53D7 /* Assets.xcassets */,
 				78281A6B28773678000B53D7 /* LaunchScreen.storyboard */,
 				78281A6E28773678000B53D7 /* Info.plist */,
+				781279C8287B385900C449F7 /* AppComponent.swift */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -137,6 +250,8 @@
 				78281A5928773677000B53D7 /* Sources */,
 				78281A5A28773677000B53D7 /* Frameworks */,
 				78281A5B28773677000B53D7 /* Resources */,
+				789B679D287768E7005FAE9F /* ShellScript */,
+				781279B3287B271700C449F7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +368,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		789B679D287768E7005FAE9F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RIBs.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/$(SRCROOT)/Carthage/Build/iOS/RxTest.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		78281A5928773677000B53D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				781279C5287B344F00C449F7 /* LoggedOutInteractor.swift in Sources */,
+				781279B9287B321A00C449F7 /* RootViewController.swift in Sources */,
+				781279B8287B321A00C449F7 /* RootRouter.swift in Sources */,
+				781279C4287B344F00C449F7 /* LoggedOutBuilder.swift in Sources */,
+				781279C7287B36A800C449F7 /* RootComponent+LoggedOut.swift in Sources */,
+				781279BB287B321A00C449F7 /* RootInteractor.swift in Sources */,
+				781279C2287B344F00C449F7 /* LoggedOutRouter.swift in Sources */,
 				78281A6528773677000B53D7 /* ViewController.swift in Sources */,
 				78281A6128773677000B53D7 /* AppDelegate.swift in Sources */,
 				78281A6328773677000B53D7 /* SceneDelegate.swift in Sources */,
+				781279C3287B344F00C449F7 /* LoggedOutViewController.swift in Sources */,
+				781279C9287B385900C449F7 /* AppComponent.swift in Sources */,
+				781279BA287B321A00C449F7 /* RootBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +500,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -366,7 +515,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,9 +570,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -433,56 +585,76 @@
 		78281A8828773678000B53D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9HQ4YMXN74;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Weather/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.euijoon.Weather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		78281A8928773678000B53D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9HQ4YMXN74;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Weather/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.euijoon.Weather;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

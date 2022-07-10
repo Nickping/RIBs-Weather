@@ -1,0 +1,3 @@
+github "uber/RIBs" "main"
+github "ReactiveX/RxSwift" "6.5.0"
+
